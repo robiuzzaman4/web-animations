@@ -1,0 +1,21 @@
+.main {
+  border: 1px solid #d4951e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  perspective: 500px;
+}
+
+.box-1 {
+  background-color: #d4951e;
+  width: 150px;
+  height: 150px;
+  transition-duration: 500ms;
+  transition-timing-function: ease;
+  &:hover {
+    transform: rotateY(180deg);
+    background-color: #7fd41e;
+  }
+}
