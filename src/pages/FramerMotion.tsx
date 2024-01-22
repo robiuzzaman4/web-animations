@@ -1,9 +1,9 @@
-import CycleHook from "../components/CycleHook";
+import ScrollHook from "../components/ScrollHook";
 
 const FramerMotion = () => {
   return (
     <>
-      <CycleHook />
+      <ScrollHook />
     </>
   );
 };
